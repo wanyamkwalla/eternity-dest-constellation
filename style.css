@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+body {
+  background: #102a46;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+* { margin: 0; padding: 0; }
+
+ul, li, ol { list-style: none; }
+
+body { overflow: hidden; }
+
+#popup { display: none; width: 100%; height: 100%; z-index: 5; position: fixed; left: 0; top: 0; background: rgba(0, 0, 0, 0.5); }
+#popup .close{width:50px; height:50px; position:absolute; right:10%; top:10%; cursor: pointer;}
+#popup .close span{display:block; width:50px; height:2px; background-color: #fff;}
+#popup .close span:nth-of-type(1){transform: rotate(45deg);}
+#popup .close span:nth-of-type(2){transform: rotate(-45deg);}
+#popup .cute { position: absolute; left: 50%; top: 45%; -webkit-transform: translate(-50%, -45%); transform: translate(-50%, -45%); }
+#popup .cute img{width:800px;}
+#popup span {font-family: 'Stick', sans-serif; display: block; position: absolute; left: 30%; top: 58%; font-size: 56px; color: #fff; z-index: 8; }
+#popup .text-vertical-1 { -webkit-writing-mode: vertical-lr; -ms-writing-mode: tb-lr; writing-mode: vertical-lr; }
+
+.open{display:block;}
+
+canvas{z-index:-1; width:auto; }
+
+#youngjong { width: 100%; height: 100vh; position: relative; }
+
+#youngjong ul { position: fixed; left: 0; top: 0; }
+
+#youngjong ul li { transition:.3s; -webkit-box-sizing: border-box; box-sizing: border-box; position: fixed; cursor: pointer; }
+
+#youngjong ul li img { width: 380px;}
+
+#youngjong ul li:hover { -webkit-filter: drop-shadow(2px 2px 8px #95a2b7); filter: drop-shadow(2px 2px 8px #95a2b7); }
+
+#youngjong ul #rihito { left: 39%; top: 3%; }
+
+#youngjong ul #tsubaki { left: 25%; top: 7%; }
+
+#youngjong ul #karen { left: 54%; top: 10%; }
+#youngjong ul #karen img{width:auto; height:280px;}
+
+#youngjong ul #tetsusuke { left: 67%; top: 4%; }
+
+#youngjong ul #yozora { left: 7%; top: 34%; }
+
+#youngjong ul #sanagi { left: 21%; top: 29%; }
+
+#youngjong ul #shio { left: 37%; top: 32%; }
+
+#youngjong ul #yuuki { left: 53%; top: 36%; }
+#youngjong ul #yuuki img{width:auto; height:320px;}
+
+#youngjong ul #suzuha { left: 25%; top: 57%; }
+
+#youngjong ul #ayasa { left: 41%; top: 61%; }
+
+#youngjong ul #toramitsu { left: 57%; top: 58%; }
+
+#youngjong ul #seito { left: 72%; top: 56%; }
+
+@media All and (max-width: 1585px) { #youngjong { width: 100%; }
+  #youngjong ul { position: fixed; left: 0; top: 0; }
+  #youngjong ul li { -webkit-box-sizing: border-box; box-sizing: border-box; position: fixed; cursor: pointer; }
+  #youngjong ul li img { width: 280px; }
+  #youngjong ul li:hover { -webkit-filter: drop-shadow(2px 2px 15px #95a2b7); filter: drop-shadow(2px 2px 15px #95a2b7); }
+  #youngjong ul #rihito { left: 39%; top: 3%; }
+  #youngjong ul #tsubaki { left: 26%; top: 6%; }
+  #youngjong ul #karen { left: 52%; top: 10%; }
+  #youngjong ul #tetsusuke { left: 66%; top: 4%; }
+  #youngjong ul #yozora { left: 7%; top: 34%; }
+  #youngjong ul #sanagi { left: 21%; top: 29%; }
+  #youngjong ul #shio { left: 36%; top: 32%; }
+  #youngjong ul #seito { left: 51%; top: 36%; }
+  #youngjong ul #suzuha { left: 27%; top: 57%; }
+  #youngjong ul #ayasa { left: 42%; top: 61%; }
+  #youngjong ul #toramitsu { left: 57%; top: 58%; }
+  #youngjong ul #yuuki { left: 71%; top: 56%; } }
+
+@media All and (max-width: 1420px) { body { background-size: cover; height: auto; }
+  #youngjong { width: 100%; margin: 0 auto; text-align: center; overflow: scroll; scroll-behavior: smooth; scrollbar-width: 5px; }
+  #youngjong ul { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  #youngjong ul li { position: static; width: 48%; }
+  #youngjong ul li img { width: 450px; } }
+
+@media All and (max-width: 1024px) { #youngjong ul li { width: 100%; }
+  #youngjong ul li img { width: 400px; } }
+
+@media All and (max-width: 767px) { #youngjong ul li { width: 100%; }
+  #youngjong ul li img { width: 350px; } }
+
+@media All and (max-width: 375px) { #youngjong ul li { width: 100%; }
+  #youngjong ul li img { width: 300px; } }
+/*# sourceMappingURL=index.css.map */
