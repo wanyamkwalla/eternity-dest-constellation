@@ -25,8 +25,8 @@ $(function(){
                         popup += "<img src='"+imgSrc+"' alt='"+name+"'>";
                         popup += "</div>";
                         popup += "<span class='text-vertical-1'>"+nihongo+"</span>";
-                        popup += "<div calss='constellation1'><img src='"+constellation1+"' alt=''></div>";
-                        popup += "<div calss='constellation2'><img src='"+constellation2+"' alt=''></div>";
+                        popup += "<div class='constellation1'><img src='"+constellation1+"' alt=''></div>";
+                        popup += "<div class='constellation2'><img src='"+constellation2+"' alt=''></div>";
                         
                         $('#popup .open_popup').html(popup);  
                     }

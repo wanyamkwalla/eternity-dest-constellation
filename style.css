@@ -32,7 +32,10 @@ body { overflow: hidden; }
 #popup .cute { position: absolute; left: 50%; top: 45%; -webkit-transform: translate(-50%, -45%); transform: translate(-50%, -45%); }
 #popup span {font-family: 'darts'; display: block; position: absolute; left: 30%; top: 58%; font-size: 56px; color: #fff; z-index: 8; }
 #popup .text-vertical-1 { -webkit-writing-mode: vertical-lr; -ms-writing-mode: tb-lr; writing-mode: vertical-lr; }
-
+.constellation1 { position: absolute; left: 28%; top: 55%; opacity: .8; transform: rotate(-15deg); }
+.constellation1 img { width: 50px; }
+.constellation2 { position: absolute; left: 64%; top: 17%; opacity: .9; transform: rotate(15deg); }
+.constellation2 img { width: 150px;}
 .open{display:block;}
 
 canvas{z-index:-1; width:auto; }
@@ -142,6 +145,8 @@ canvas{z-index:-1; width:auto; }
   #popup span{font-size:1.9em; height:80vh; position:static; display:flex; justify-content: center; align-items: flex-end;}
   #popup .text-vertical-1{writing-mode: horizontal-tb; }
   #youngjong ul li { width: 100%; }
+  .constellation1 { position: absolute; left: 36%; top: 76%; }
+  .constellation2 { position: absolute; left: 64%; top: 17%; }
 }
 
 @media All and (max-width: 767px) { 
