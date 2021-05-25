@@ -2,11 +2,11 @@
 @font-face {
   font-family: 'darts';
   font-style: normal;
-  font-weight: normal;
-  src: local('darts'), local('darts'),
-  url(/dartsfont/dartsfont.ttf) format('ttf'),
-  url(/dartsfont/dartsfont.eot) format('embedded-opentype'),
-  url(/dartsfont/dartsfont.woff) format('woff');
+  font-weight: 400;
+  src: url(/dartsfont/dartsfont.eot),
+        url(/dartsfont/dartsfont.ttf) format('truetype'),
+        url(/dartsfont/dartsfont.woff2) format('woff2'),
+        url(/dartsfont/dartsfont.woff) format('woff');
 }
 
 body {
