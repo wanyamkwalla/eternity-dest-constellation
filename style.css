@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@font-face {
+  font-family: 'darts';
+  font-style: normal;
+  font-weight: normal;
+  src: local('darts'), local('darts'),
+  url(../dartsfont/dartsfont.ttf) format('ttf'),
+  url(../dartsfont/dartsfont.eot?#iefix) format('embedded-opentype'),
+  url(../dartsfont/dartsfont.woff) format('woff'),
+  url(../dartsfont/dartsfont.woff2) format('woff2');
+}
 
 body {
   background: #102a46;
@@ -22,7 +32,7 @@ body { overflow: hidden; }
 #popup .close span:nth-of-type(1){transform: rotate(45deg);}
 #popup .close span:nth-of-type(2){transform: rotate(-45deg);}
 #popup .cute { position: absolute; left: 50%; top: 45%; -webkit-transform: translate(-50%, -45%); transform: translate(-50%, -45%); }
-#popup span {font-family: 'Stick', sans-serif; display: block; position: absolute; left: 30%; top: 58%; font-size: 56px; color: #fff; z-index: 8; }
+#popup span {font-family: 'darts', sans-serif; display: block; position: absolute; left: 30%; top: 58%; font-size: 56px; color: #fff; z-index: 8; }
 #popup .text-vertical-1 { -webkit-writing-mode: vertical-lr; -ms-writing-mode: tb-lr; writing-mode: vertical-lr; }
 
 .open{display:block;}
