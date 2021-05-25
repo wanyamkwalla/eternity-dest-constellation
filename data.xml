@@ -5,60 +5,84 @@
         <imgSrc>img/rihito.png</imgSrc>
         <name>rihito</name>
         <nihongo>崎川 凛翔</nihongo>
+        <constellation1>img/aquarius_1</constellation1>
+        <constellation2>img/aquarius_2</constellation2>
     </item>
     <item>
         <imgSrc>img/tsubaki.png</imgSrc>
         <name>tsubaki</name>
         <nihongo>山本 椿木</nihongo>
+        <constellation1>img/virgo_1</constellation1>
+        <constellation2>img/virgo_2</constellation2>
     </item>
     <item>
         <imgSrc>img/karen.png</imgSrc>
         <name>karen</name>
         <nihongo>杉咲 桜恋</nihongo>
+        <constellation1>img/gemini_1</constellation1>
+        <constellation2>img/gemini_2</constellation2>
     </item>
     <item>
         <imgSrc>img/yuuki.png</imgSrc>
         <name>yuuki</name>
         <nihongo>星野 勇紀</nihongo>
+        <constellation1>img/sagittarius_1</constellation1>
+        <constellation2>img/sagittarius_2</constellation2>
     </item>
     <item>
         <imgSrc>img/suzuha.png</imgSrc>
         <name>suzuha</name>
         <nihongo>東雲 涼羽</nihongo>
+        <constellation1>img/libra_1</constellation1>
+        <constellation2>img/libra_2</constellation2>
     </item>
     <item>
         <imgSrc>img/ayasa.png</imgSrc>
         <name>ayasa</name>
         <nihongo>平山 彩早</nihongo>
+        <constellation1>img/aquarius_1</constellation1>
+        <constellation2>img/aquarius_2</constellation2>
     </item>
     <item>
         <imgSrc>img/yozora.png</imgSrc>
         <name>yozora</name>
         <nihongo>月城 夜空</nihongo>
+        <constellation1>img/aries_1</constellation1>
+        <constellation2>img/aries_2</constellation2>
     </item>
     <item>
         <imgSrc>img/sio.png</imgSrc>
         <name>sio</name>
         <nihongo>芙雪 詩緒</nihongo>
+        <constellation1>img/sagittarius_1</constellation1>
+        <constellation2>img/sagittarius_2</constellation2>
     </item>
     <item>
         <imgSrc>img/sanagi.png</imgSrc>
         <name>sanagi</name>
         <nihongo>東雲 沙凪</nihongo>
+        <constellation1>img/pisces_1</constellation1>
+        <constellation2>img/pisces_2</constellation2>
     </item>
     <item>
         <imgSrc>img/seito.png</imgSrc>
         <name>seito</name>
         <nihongo>勝亦 誠登</nihongo>
+        <constellation1>img/capricorn_1</constellation1>
+        <constellation2>img/capricorn_2</constellation2>
     </item>
     <item>
         <imgSrc>img/toramitsu.png</imgSrc>
         <name>toramitsu</name>
         <nihongo>青砥 虎光</nihongo>
+        <constellation1>img/taurus_1</constellation1>
+        <constellation2>img/taurus_2</constellation2>
     </item>
     <item>
         <imgSrc>img/tetsusuke.png</imgSrc>
         <name>tetsusuke</name>
         <nihongo>壬生 鉄助</nihongo>
+        <constellation1>img/gemini_1</constellation1>
+        <constellation2>img/gemini_2</constellation2>
     </item>
 </items>

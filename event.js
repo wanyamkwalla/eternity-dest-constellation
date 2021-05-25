@@ -5,7 +5,7 @@ $(function(){
         type:'GET',
         success:function(data){
   
-            var imgSrc,name,nihongo;
+            var imgSrc,name,nihongo,constellation1,constellation2;
             function funList(code){
                 var cute='',popup;
                 $(data).find('item').each(function(i){
@@ -13,6 +13,8 @@ $(function(){
                     imgSrc = $(this).find('imgSrc').text();
                     name = $(this).find('name').text();
                     nihongo = $(this).find('nihongo').text();
+                    constellation1 = $(this).find('constellation1').text();
+                    constellation2 = $(this).find('constellation2').text();
                       
                     cute += "<li data-num='"+i+"' id='"+name+"'>";
                     cute += "<img src='"+imgSrc+"' alt='"+name+"'>";
@@ -23,6 +25,8 @@ $(function(){
                         popup += "<img src='"+imgSrc+"' alt='"+name+"'>";
                         popup += "</div>";
                         popup += "<span class='text-vertical-1'>"+nihongo+"</span>";
+                        popup += "<div calss='constellation1'><img src='"+constellation1+"' alt=''></div>";
+                        popup += "<div calss='constellation2'><img src='"+constellation2+"' alt=''></div>";
                         
                         $('#popup .open_popup').html(popup);  
                     }
