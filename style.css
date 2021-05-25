@@ -2,10 +2,10 @@
   font-family: 'darts';
   font-style: normal;
   font-weight: 400;
-  src: url(/dartsfont/dartsfont.eot),
-       url(/dartsfont/dartsfont.ttf) format('truetype'),
-       url(/dartsfont/dartsfont.woff2) format('woff2'),
-       url(/dartsfont/dartsfont.woff) format('woff');
+  src: url(dartsfont/dartsfont.eot),
+       url(dartsfont/dartsfont.woff2) format('woff2'),
+       url(dartsfont/dartsfont.woff) format('woff'),
+       url(dartsfont/dartsfont.ttf) format('truetype');
 }
 
 body {
