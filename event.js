@@ -21,7 +21,7 @@ $(function(){
                     cute += "</li>";
                     
                     if(Number(code) == i){
-                        popup += "<div data-num='"+i+"' class='cute'>";
+                        popup = "<div data-num='"+i+"' class='cute'>";
                         popup += "<img src='"+imgSrc+"' alt='"+name+"'>";
                         popup += "</div>";
                         popup += "<span class='text-vertical-1'>"+nihongo+"</span>";
