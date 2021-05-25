@@ -4,9 +4,9 @@
   font-style: normal;
   font-weight: normal;
   src: local('darts'), local('darts'),
-  url(../dartsfont/dartsfont.ttf) format('ttf'),
-  url(../dartsfont/dartsfont.eot) format('embedded-opentype'),
-  url(../dartsfont/dartsfont.woff) format('woff');
+  url(/dartsfont/dartsfont.ttf) format('ttf'),
+  url(/dartsfont/dartsfont.eot) format('embedded-opentype'),
+  url(/dartsfont/dartsfont.woff) format('woff');
 }
 
 body {
