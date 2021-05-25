@@ -38,16 +38,18 @@ $(function(){
                 var popupClose = $('#popup .close');
   
                  //클릭 이벤트
-                suki.click(function(){
-                    // if(cute.attr('data-num') == popup.attr('data-num')){
-                    //     popupOpen.css({display:"block",opacity:"0"}).animate({'opacity': 1}, 250);    
-                    // }        
-                    funList($(this).attr('data-num'));
-                    popupOpen.css({display:"block",opacity:"0"}).animate({'opacity': 1}, 250);    
-                });
-                popupClose.click(function(){
-                    popupOpen.css({display:"none",opacity:"0"});
-                });  
+                 var windowWidth = $( window ).width();
+                 if(windowWidth < 500) {
+                 } else {
+                    suki.click(function(){
+                        funList($(this).attr('data-num'));
+                        popupOpen.css({display:"block",opacity:"0"}).animate({'opacity': 1}, 250);    
+                    });
+                    popupClose.click(function(){
+                        popupOpen.css({display:"none",opacity:"0"});
+                    });  
+                 }
+
             //
             }
             funList('all');    
